@@ -25,6 +25,18 @@ Download the asset bundles from [Releases](https://github.com/sdimaging/explorat
 | `brute-ember-colmap-200.zip` | 200 EMBER images with matching camera sampling and complete COLMAP data. |
 | `vanta-colmap-200.zip` | 200 VANTA images, masks and complete COLMAP data. |
 
+### Trained Splats
+
+Added 7 September 2026 as individual PLY attachments to [release v0.1.0](https://github.com/sdimaging/exploratory-3d/releases/tag/v0.1.0):
+
+| File | Splats | Size |
+| --- | ---: | ---: |
+| `vanta_.ply` | 323,744 | 76,405,190 bytes |
+| `brute_green_.ply` | 273,683 | 64,590,794 bytes |
+| `brute_ember_.ply` | 311,336 | 73,476,902 bytes |
+
+These are Spenser's original trained splat exports, not the untrained `seed.ply` files inside the capture datasets. The PLY headers identify Postshot v1.1.69. Binary structure and payload sizes were checked; the trained results were not visually reviewed during this upload. GitHub displays a SHA-256 digest for each attachment. The original ZIP manifest and checksums still describe the earlier Blender delivery, and the PDFs document the pre-training stage.
+
 ## Local Layout
 
 ```text
@@ -49,7 +61,7 @@ Camera poses are known Blender ground truth exported in [COLMAP's coordinate con
 
 Open each dataset root in [LichtFeld Studio](https://github.com/MrNeRF/LichtFeld-Studio). Reflective/transmissive optics are deliberately retained, so view-dependent appearance may need trainer tuning. Alpha-derived masks include partially transparent pixels. Training results have not been validated as part of the Blender delivery.
 
-Spenser will train and add the splat assets separately. The repository remains private until an explicit public-release decision.
+Spenser's trained PLY exports are now available separately under Trained Splats above. The repository remains private until an explicit public-release decision.
 
 ## Native Versus Portable
 
