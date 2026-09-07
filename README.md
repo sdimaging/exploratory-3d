@@ -35,7 +35,7 @@ Added 7 September 2026 as individual PLY attachments to [release v0.1.0](https:/
 | `brute_green_.ply` | 273,683 | 64,590,794 bytes |
 | `brute_ember_.ply` | 311,336 | 73,476,902 bytes |
 
-These are Spenser's original trained splat exports, not the untrained `seed.ply` files inside the capture datasets. The PLY headers identify Postshot v1.1.69. Binary structure and payload sizes were checked; the trained results were not visually reviewed during this upload. GitHub displays a SHA-256 digest for each attachment. The original ZIP manifest and checksums still describe the earlier Blender delivery, and the PDFs document the pre-training stage.
+These are Spenser's original trained splat exports, not the untrained `seed.ply` files inside the capture datasets. The PLY headers identify Postshot v1.1.69. Binary structure, payload sizes and uploaded SHA-256 digests were checked. The revised BRUTE PDF closes with an actual screenshot of both trained colorways in Spenser's SplatPaint v1.0, exploring the move from Cycles renders into interactive Gaussian-splat media. The original screenshot is included in the presentation bundle. Runtime performance and multi-view fidelity have not been benchmarked. The ZIP manifest and checksums cover the eight bundles; trained PLYs remain separate release attachments with their own GitHub SHA-256 digests.
 
 ## Local Layout
 
